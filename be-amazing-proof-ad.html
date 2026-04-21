@@ -2,8 +2,8 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=800">
-  <title>Be Amazing — Proof Ad 1:1</title>
+  <meta name="viewport" content="width=1080">
+  <title>Be Amazing — Proof Ad 1080×1080</title>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link href="https://fonts.googleapis.com/css2?family=Barlow:wght@400;600;700;800;900&display=swap" rel="stylesheet">
   <style>
@@ -15,15 +15,15 @@
       align-items: center;
       min-height: 100vh;
       background: #B8B5B0;
-      padding: 32px;
+      padding: 40px;
     }
 
-    /* ─── 800 × 800 canvas ─────────────────────────────── */
+    /* ─── 1080 × 1080 canvas ────────────────────────────── */
     .ad {
       position: relative;
-      width: 800px;
-      height: 800px;
-      background: #F8F5EF;       /* warm off-white brand tint */
+      width: 1080px;
+      height: 1080px;
+      background: #F8F5EF;         /* warm off-white brand tint */
       overflow: hidden;
       font-family: 'Barlow', sans-serif;
       flex-shrink: 0;
@@ -33,12 +33,12 @@
     .bg-dots {
       position: absolute;
       inset: 0;
-      background-image: radial-gradient(#C2BFB8 1.4px, transparent 1.4px);
-      background-size: 26px 26px;
+      background-image: radial-gradient(#C2BFB8 1.9px, transparent 1.9px);
+      background-size: 35px 35px;
       opacity: 0.28;
     }
 
-    /* Radial vignette – hides dots directly behind the product */
+    /* Radial vignette — hides dots behind the product */
     .bg-fade {
       position: absolute;
       inset: 0;
@@ -52,62 +52,62 @@
     /* ─── Headline ──────────────────────────────────────── */
     .headline {
       position: absolute;
-      top: 36px;
+      top: 49px;
       left: 0; right: 0;
       text-align: center;
-      padding: 0 80px;
+      padding: 0 108px;
       z-index: 10;
       line-height: 1.15;
     }
     .hl1 {
       display: block;
-      font-size: 28px; font-weight: 800;
+      font-size: 38px; font-weight: 800;
       color: #1C1C1C;
       letter-spacing: 0.04em;
       text-transform: uppercase;
     }
     .hl2 {
       display: block;
-      font-size: 28px; font-weight: 900;
+      font-size: 38px; font-weight: 900;
       color: #28C76F;              /* brand accent — vibrant wellness green */
       letter-spacing: 0.04em;
       text-transform: uppercase;
-      margin-top: 2px;
+      margin-top: 3px;
     }
 
     /* ─── Metric callouts ───────────────────────────────── */
     .metric {
       position: absolute;
       z-index: 10;
-      width: 150px;
+      width: 202px;
       text-align: center;
     }
     .mn {
-      font-size: 58px; font-weight: 900;
+      font-size: 78px; font-weight: 900;
       color: #28C76F;
       line-height: 1;
       letter-spacing: -0.025em;
     }
     .ml {
-      font-size: 12px; font-weight: 700;
+      font-size: 16px; font-weight: 700;
       color: #716E68;
       text-transform: uppercase;
       letter-spacing: 0.08em;
-      margin-top: 5px;
+      margin-top: 7px;
       line-height: 1.45;
     }
 
-    /* Radial positions: top-left, top-right, bottom-left, bottom-right */
-    .m-tl { top: 158px;    left:  48px; }
-    .m-tr { top: 158px;    right: 48px; }
-    .m-bl { bottom: 158px; left:  48px; }
-    .m-br { bottom: 158px; right: 48px; }
+    /* Radial positions */
+    .m-tl { top: 213px;    left:  65px; }
+    .m-tr { top: 213px;    right: 65px; }
+    .m-bl { bottom: 213px; left:  65px; }
+    .m-br { bottom: 213px; right: 65px; }
 
     /* ─── Footer ────────────────────────────────────────── */
     .tagline {
       position: absolute;
-      bottom: 30px; left: 44px;
-      font-size: 11px; font-weight: 600;
+      bottom: 41px; left: 59px;
+      font-size: 15px; font-weight: 600;
       color: #AEAAA3;
       letter-spacing: 0.14em;
       text-transform: uppercase;
@@ -115,20 +115,20 @@
     }
     .logo {
       position: absolute;
-      bottom: 26px; right: 44px;
-      display: flex; align-items: center; gap: 7px;
+      bottom: 35px; right: 59px;
+      display: flex; align-items: center; gap: 9px;
       z-index: 10;
     }
     .logo-mark {
-      width: 28px; height: 28px;
+      width: 38px; height: 38px;
       background: #28C76F;
       border-radius: 50%;
       display: flex; align-items: center; justify-content: center;
-      font-size: 8.5px; font-weight: 900;
+      font-size: 11px; font-weight: 900;
       color: white;
     }
     .logo-name {
-      font-size: 14px; font-weight: 800;
+      font-size: 19px; font-weight: 800;
       color: #1C1C1C;
       letter-spacing: 0.1em;
       text-transform: uppercase;
@@ -148,142 +148,135 @@
   </div>
 
   <!-- ══════════════════════════════════════════════════════
-       SVG LAYER  –  curved arrows + supplement tub mockup
-       Canvas: 800 × 800.  Tub centred at (400, 410).
+       SVG LAYER  —  curved arrows + supplement tub mockup
+       Canvas 1080 × 1080.  All coordinates at native 1080px.
        ══════════════════════════════════════════════════════ -->
   <svg
     style="position:absolute;inset:0;z-index:5;overflow:visible;"
-    width="800" height="800" viewBox="0 0 800 800"
+    width="1080" height="1080" viewBox="0 0 1080 1080"
     fill="none" xmlns="http://www.w3.org/2000/svg">
 
     <defs>
-      <!-- Auto-orient arrowhead marker -->
-      <marker id="arr" markerWidth="8" markerHeight="8"
-              refX="5.5" refY="4" orient="auto" markerUnits="strokeWidth">
-        <path d="M 0 1 L 0 7 L 6 4 Z" fill="#28C76F" opacity="0.65"/>
+      <!-- Auto-orient arrowhead -->
+      <marker id="arr" markerWidth="10" markerHeight="10"
+              refX="7" refY="5" orient="auto" markerUnits="strokeWidth">
+        <path d="M 0 1.5 L 0 8.5 L 8 5 Z" fill="#28C76F" opacity="0.65"/>
       </marker>
 
-      <!-- Soft drop-shadow filter for the tub -->
+      <!-- Soft drop-shadow for the tub -->
       <filter id="tub-shadow" x="-20%" y="-10%" width="140%" height="140%">
-        <feDropShadow dx="0" dy="12" stdDeviation="18"
+        <feDropShadow dx="0" dy="16" stdDeviation="24"
                       flood-color="rgba(0,0,0,0.11)"/>
       </filter>
     </defs>
 
     <!-- ── DASHED CURVED ARROWS (inward, radial) ─────────
-         Each path starts near the metric callout and curves
-         toward the product tub.  marker-end adds the head.
          Metric centres (approx):
-           TL  (123, 203)   TR  (677, 203)
-           BL  (123, 597)   BR  (677, 597)
-         Arrow start = edge of metric closest to product.
-         Arrow end   = tub corner quadrant.
+           TL  (166, 273)    TR  (914, 273)
+           BL  (166, 807)    BR  (914, 807)
+         Arrow starts = metric edge closest to product.
+         Arrow ends   = tub corner quadrant.
     ──────────────────────────────────────────────────── -->
 
     <!-- TL → product top-left -->
-    <path d="M 186 244 C 228 254 272 283 308 309"
-          stroke="#28C76F" stroke-width="1.8" stroke-dasharray="6 5"
+    <path d="M 251 329 C 308 343 367 382 416 417"
+          stroke="#28C76F" stroke-width="2.4" stroke-dasharray="8 7"
           stroke-linecap="round" opacity="0.52"
           marker-end="url(#arr)"/>
 
     <!-- TR → product top-right -->
-    <path d="M 614 244 C 572 254 528 283 492 309"
-          stroke="#28C76F" stroke-width="1.8" stroke-dasharray="6 5"
+    <path d="M 829 329 C 772 343 713 382 664 417"
+          stroke="#28C76F" stroke-width="2.4" stroke-dasharray="8 7"
           stroke-linecap="round" opacity="0.52"
           marker-end="url(#arr)"/>
 
     <!-- BL → product bottom-left -->
-    <path d="M 186 556 C 228 546 272 517 308 491"
-          stroke="#28C76F" stroke-width="1.8" stroke-dasharray="6 5"
+    <path d="M 251 751 C 308 737 367 698 416 663"
+          stroke="#28C76F" stroke-width="2.4" stroke-dasharray="8 7"
           stroke-linecap="round" opacity="0.52"
           marker-end="url(#arr)"/>
 
     <!-- BR → product bottom-right -->
-    <path d="M 614 556 C 572 546 528 517 492 491"
-          stroke="#28C76F" stroke-width="1.8" stroke-dasharray="6 5"
+    <path d="M 829 751 C 772 737 713 698 664 663"
+          stroke="#28C76F" stroke-width="2.4" stroke-dasharray="8 7"
           stroke-linecap="round" opacity="0.52"
           marker-end="url(#arr)"/>
 
     <!-- ── SUPPLEMENT TUB MOCKUP ─────────────────────────
-         Centred at (400, 410).  Body: x 290–510, y 287–520.
+         Centred at (540, 554).
+         Body: x 392–689  (w 297),  y 388–700  (h 312).
          Rendered bottom-to-top so layers stack correctly.
     ──────────────────────────────────────────────────── -->
 
     <g filter="url(#tub-shadow)">
-
-      <!-- Base ellipse (bottom of tub) -->
-      <ellipse cx="400" cy="516" rx="110" ry="24" fill="#D5D1C8"/>
-
+      <!-- Base ellipse -->
+      <ellipse cx="540" cy="697" rx="149" ry="32" fill="#D5D1C8"/>
       <!-- Cylinder body -->
-      <rect x="290" y="287" width="220" height="231" rx="14" fill="white"/>
-
-      <!-- Lid stack (outer → inner → face) -->
-      <ellipse cx="400" cy="285" rx="110" ry="24" fill="#C9C6BE"/>
-      <ellipse cx="400" cy="279" rx="98"  ry="18" fill="#D5D2CA"/>
-      <ellipse cx="400" cy="274" rx="86"  ry="13" fill="#E1DED7"/>
+      <rect x="392" y="388" width="297" height="312" rx="19" fill="white"/>
+      <!-- Lid stack -->
+      <ellipse cx="540" cy="385" rx="149" ry="32" fill="#C9C6BE"/>
+      <ellipse cx="540" cy="377" rx="132" ry="24" fill="#D5D2CA"/>
+      <ellipse cx="540" cy="370" rx="116" ry="18" fill="#E1DED7"/>
       <!-- Lid highlight -->
-      <ellipse cx="393" cy="271" rx="49"  ry="7"
-               fill="rgba(255,255,255,0.52)"/>
-
+      <ellipse cx="531" cy="366" rx="66"  ry="9"  fill="rgba(255,255,255,0.52)"/>
     </g>
 
     <!-- ── LABEL ─────────────────────────────────────── -->
-    <!-- Label base (sits on white cylinder) -->
-    <rect x="298" y="299" width="204" height="212" rx="6" fill="#FAFAFB"/>
+    <rect x="403" y="404" width="275" height="286" rx="8" fill="#FAFAFB"/>
+
+    <!-- Green mid-band -->
+    <rect x="403" y="527" width="275" height="73" fill="#28C76F"/>
 
     <!-- Brand name -->
-    <text x="400" y="345"
+    <text x="540" y="466"
           text-anchor="middle"
           font-family="Barlow, sans-serif"
-          font-size="19" font-weight="900"
-          fill="#1C1C1C" letter-spacing="5">BE AMAZING</text>
+          font-size="26" font-weight="900"
+          fill="#1C1C1C" letter-spacing="7">BE AMAZING</text>
 
     <!-- Thin rule -->
-    <line x1="330" y1="355" x2="470" y2="355"
-          stroke="#E2DFD8" stroke-width="0.8"/>
+    <line x1="446" y1="480" x2="635" y2="480"
+          stroke="#E2DFD8" stroke-width="1.1"/>
 
     <!-- Product descriptor -->
-    <text x="400" y="376"
+    <text x="540" y="508"
           text-anchor="middle"
           font-family="Barlow, sans-serif"
-          font-size="10.5" font-weight="600"
-          fill="#AAAAAA" letter-spacing="3.5">VEGAN PROTEIN</text>
+          font-size="14" font-weight="600"
+          fill="#AAAAAA" letter-spacing="5">VEGAN PROTEIN</text>
 
-    <!-- ── Green mid-band ── -->
-    <rect x="298" y="390" width="204" height="54" fill="#28C76F"/>
-
-    <text x="400" y="413"
+    <!-- Green band: protein callout -->
+    <text x="540" y="558"
           text-anchor="middle"
           font-family="Barlow, sans-serif"
-          font-size="16" font-weight="900"
-          fill="white" letter-spacing="2.5">20G PROTEIN</text>
-
-    <text x="400" y="431"
+          font-size="22" font-weight="900"
+          fill="white" letter-spacing="3">20G PROTEIN</text>
+    <text x="540" y="582"
           text-anchor="middle"
           font-family="Barlow, sans-serif"
-          font-size="9" font-weight="600"
-          fill="rgba(255,255,255,0.75)" letter-spacing="2">PER SERVING</text>
+          font-size="12" font-weight="600"
+          fill="rgba(255,255,255,0.75)" letter-spacing="3">PER SERVING</text>
 
     <!-- Flavour name -->
-    <text x="400" y="463"
+    <text x="540" y="625"
           text-anchor="middle"
           font-family="Barlow, sans-serif"
-          font-size="10" font-weight="600"
-          fill="#BBBBBB" letter-spacing="3">VANILLA SOFT SERVE</text>
+          font-size="14" font-weight="600"
+          fill="#BBBBBB" letter-spacing="4">VANILLA SOFT SERVE</text>
 
     <!-- Net weight / servings -->
-    <text x="400" y="480"
+    <text x="540" y="649"
           text-anchor="middle"
           font-family="Barlow, sans-serif"
-          font-size="8.5" font-weight="500"
-          fill="#CCCCCC" letter-spacing="1.5">25 SERVINGS  ·  1.7 LB</text>
+          font-size="11.5" font-weight="500"
+          fill="#CCCCCC" letter-spacing="2">25 SERVINGS  ·  1.7 LB</text>
 
     <!-- Certification line -->
-    <text x="400" y="498"
+    <text x="540" y="672"
           text-anchor="middle"
           font-family="Barlow, sans-serif"
-          font-size="8" font-weight="700"
-          fill="#28C76F" letter-spacing="1.5">★  THIRD PARTY TESTED  ★</text>
+          font-size="11" font-weight="700"
+          fill="#28C76F" letter-spacing="2">★  THIRD PARTY TESTED  ★</text>
 
   </svg>
   <!-- ── end SVG ── -->
